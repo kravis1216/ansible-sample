@@ -2,6 +2,7 @@ import logging
 import sys
 import time #タイムスタンプ情報を保持
 
+
 logging.basicConfig(level=logging.INFO, stream=sys.stdout)
 
 class BlockChain(object):
